@@ -5,7 +5,6 @@ const expandingCards = () =>{
     });
     panels.forEach(panel =>{
         panel.addEventListener('click', () =>{
-            console.log('ok')
             removeActiveClass();
             panel.classList.add('active');
         });
